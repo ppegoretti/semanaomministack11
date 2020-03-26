@@ -12,9 +12,9 @@ routes.post('/sessions', SessionController.create)
 routes.get('/ongs' , OngController.index);
 routes.post('/ongs', OngController.create)
 
-routes.get('/incident', IncidentController.index)
-routes.post('/incident', IncidentController.create)
-routes.delete('/incident/:id', IncidentController.delete)
+routes.get('/incidents', IncidentController.index)
+routes.post('/incidents', IncidentController.create)
+routes.delete('/incidents/:id', IncidentController.delete)
 
 routes.get('/profile', ProfileController.index)
 
